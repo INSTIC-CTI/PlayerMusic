@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontAwesome -->
+    <title>Lecteur de Musique</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div id="bg-image">
+          <div id="layer"></div>
+          <img src="images/daft-punk-logo.jpeg" alt="" id="bgImage" />
+        </div>
+        <div id="menu">
+          <img src="images/menu.png" alt="" />
+          <img src="images/search.png" alt="" />
+        </div>
+        <div id="volume-container">
+          <img src="images/volume-low.png" alt="" id="volume-down" />
+          <input type="range" name="" id="volume-slider" />
+          <img src="images/volumn-high.png" alt="" id="volume-up" />
+        </div>
+        <div id="music-image">
+          <div id="circle-image">
+            <img src="images/daft-punk-logo.jpeg" alt="" id="image" />
+          </div>
+          <div id="music-title">
+            <h5 id="playlist_status"></h5>
+            <h6 id="playlist_artist"></h6>
+          </div>
+        </div>
+        <div id="music-menu">
+          <button id="random"><img src="images/random.png" alt="" /></button>
+          <button id="mute-btn"><img src="images/speaker.png" alt="" /></button>
+        </div>
+        <div id="currentTime">
+          <span id="cur_time">00:00</span>
+          <span id="duration_time">00:00</span>
+        </div>
+        <input type="range" name="" class="seekslider" id="seekslider" />
+
+        <div id="buttons">
+          <button class="repeat" id="repeat">
+            <img src="images/rep.png" alt="" />
+          </button>
+          <div>
+            <button class="prev" id="repeat">
+              <img src="images/backward.png" alt="" />
+            </button>
+            <button class="play">
+              <img src="images/play-red.png" alt="" />
+            </button>
+            <button class="next">
+              <img src="images/forward.png" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
